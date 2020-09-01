@@ -15,9 +15,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="description" content="Personal webpage of Yashaswi Pathak" />
       <meta name="author" content="Yashaswi Pathak" />
-      <!--Social Media icons--> 
+      <!--Social Media icons-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
       <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
       <!-- <link rel="icon" type="image/png" href="logo1.png"> -->
       <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
@@ -26,7 +26,7 @@
       <!-- Animate.css -->
       <link rel="stylesheet" href="../../css/animate.css">
       <!-- Bootstrap  -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">      
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <!-- Flexslider  -->
       <link rel="stylesheet" href="../../css/flexslider.css">
       <!-- Flaticons  -->
@@ -39,13 +39,13 @@
    <body>
       <div id="colorlib-page">
          <div class="container-wrap">
-            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a> 
+            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
             <!----Side bar--->
             <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
                <div class="text-center">
                   <div class="author-img" style="background-image: url(../../images/dp.jpg);"></div>
                   <h1 id="colorlib-logo"><a href="https://yp201.github.io">Yashaswi Pathak</a></h1>
-                  <p><strong>Dual Degree Student, <a href="https://www.iiit.ac.in">IIIT Hyderabad</a></strong></p> 
+                  <p><strong>Dual Degree Student, <a href="https://www.iiit.ac.in">IIIT Hyderabad</a></strong></p>
                </div>
                   <div class="text-center services color-1">
                      <span class="icon2">
@@ -71,22 +71,21 @@
                   </div>
                </nav>
             </aside>
-            
+
             <!----- main page--------->
             <div id="colorlib-main">
-              
-                <section id="paper">
+
+                <section id="publications" class="colorlib-publications"  data-section="publications" >
                   <div class="colorlib-narrow-content">
                      <div class="row">
                           <div class="col-md-12" style="margin-top: 2%">
-                           <h2 style="text-align: center;">Chemically Interpretable Graph Interaction Network for Prediction of Pharmacokinetic Properties of Drug-like Molecules</h2>
+                           <h2 style="text-align: center;">Learning To Navigate The Synthetically Accessible Chemical Space Using Reinforcement Learninglecules</h2>
                            <p  style="text-align: center;">
-                              <u>Yashaswi Pathak</u>, Siddhartha Laghuvarapu, Sarvesh Mehta, U. Deva Priyaumar
-                             <br>34th AAAI Conference on Artificial Intelligence (AAAI 2020) <br> February 2020
+                                 Sai Krishna Gottipati, Boris Sattarov, Sufeng Niu, <u>Yashaswi Pathak</u>, Haoran Wei, Shengchao Liu, Karam M. J. Thomas, Simon Blackburn, Connor W. Coley, Jian Tang, Sarath Chandar, Yoshua Bengio
+                             <br>37th International Conference on Machine Learning (ICML)<br> July 2020
                           </p>
                           <p style="text-align: center;">
-                          <a role="button" class="btn btn-sm btn-outline-primary" href="https://www.aaai.org/ojs/index.php/AAAI/article/view/5433">Paper</a>
-                          <a role="button" class="btn btn-sm btn-outline-primary" href="https://github.com/devalab/cigin">Code</a>
+                          <a role="button" class="btn btn-sm btn-outline-primary" href="https://arxiv.org/abs/2004.12485">Paper</a>
                           </p>
                          </div>
                      </div>
@@ -94,7 +93,9 @@
                      <div class="card flex-md-row h-md-250">
                         <div class="card-body" data-animate-effect="fadeInLeft">
                           <p class="card-text mb-2 ">
-                              <b>Abstract : </b>Solubility of drug molecules is related to pharmacokinetic properties such as absorption and distribution, which affects the amount of drug that is available in the body for its action. Computational or experimental evaluation of solvation free energies of drug-like molecules/solute that quantify solubilities is an arduous task and hence development of reliable computationally tractable models is sought after in drug discovery tasks in pharmaceutical industry. Here, we report a novel method based on graph neural network to predict solvation free energies. Previous studies considered only the solute for solvation free energy prediction and ignored the nature of the solvent, limiting their practical applicability. The proposed model is an end-to-end framework comprising three phases namely, message passing, interaction and prediction phases. In the first phase, message passing neural network was used to compute inter-atomic interaction within both solute and solvent molecules represented as molecular graphs. In the interaction phase, features from the preceding step is used to calculate a solute-solvent interaction map, since the solvation free energy depends on how (un)favorable the solute and solvent molecules interact with each other. The calculated interaction map that captures the solute-solvent interactions along with the features from the message passing phase is used to predict the solvation free energies in the final phase. The model predicts solvation free energies involving a large number of solvents within the limits of chemical accuracy. We also show that the interaction map captures the electronic and steric factors that govern the solubility of drug-like molecules and hence is chemically interpretable.
+                              <b>Abstract : </b>
+                              Over the last decade, there has been significant progress in the field of machine learning for de novo drug design, particularly in deep generative models.
+                              However, current generative approaches exhibit a significant challenge as they do not ensure that the proposed molecular structures can be feasibly synthesized nor do they provide the synthesis routes of the proposed small molecules, thereby seriously limiting their practical applicability. In this work, we propose a novel forward synthesis framework powered by reinforcement learning (RL) for de novo drug design, Policy Gradient for Forward Synthesis (PGFS), that addresses this challenge by embedding the concept of synthetic accessibility directly into the de novo drug design system. In this setup, the agent learns to navigate through the immense synthetically accessible chemical space by subjecting commercially available small molecule building blocks to valid chemical reactions at every time step of the iterative virtual multi-step synthesis process. The proposed environment for drug discovery provides a highly challenging test-bed for RL algorithms owing to the large state space and high-dimensional continuous action space with hierarchical actions. PGFS achieves state-of-the-art performance in generating structures with high QED and penalized clogP. Moreover, we validate PGFS in an in-silico proof-of-concept associated with three HIV targets. Finally, we describe how the end-to-end training conceptualized in this study represents an important paradigm in radically expanding the synthesizable chemical space and automating the drug discovery process.
                             </p>
                         </div>
                      </div>
@@ -102,7 +103,7 @@
                      </div>
                      </div>
                </section>
-               
+
          <!-- end:container-wrap -->
             </div>
       <!-- end:colorlib-page -->

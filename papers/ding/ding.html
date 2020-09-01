@@ -15,9 +15,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="description" content="Personal webpage of Yashaswi Pathak" />
       <meta name="author" content="Yashaswi Pathak" />
-      <!--Social Media icons--> 
+      <!--Social Media icons-->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">      
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.1/css/academicons.min.css" integrity="sha512-NThgw3XKQ1absAahW6to7Ey42uycrVvfNfyjqcFNgCmOCQ5AR4AO0SiXrN+8ZtYeappp56lk1WtvjVmEa+VR6A==" crossorigin="anonymous">
       <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
       <!-- <link rel="icon" type="image/png" href="logo1.png"> -->
       <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
@@ -26,7 +26,7 @@
       <!-- Animate.css -->
       <link rel="stylesheet" href="../../css/animate.css">
       <!-- Bootstrap  -->
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">      
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <!-- Flexslider  -->
       <link rel="stylesheet" href="../../css/flexslider.css">
       <!-- Flaticons  -->
@@ -39,13 +39,13 @@
    <body>
       <div id="colorlib-page">
          <div class="container-wrap">
-            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a> 
+            <a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"><i></i></a>
             <!----Side bar--->
             <aside id="colorlib-aside" role="complementary" class="border js-fullheight">
                <div class="text-center">
                   <div class="author-img" style="background-image: url(../../images/dp.jpg);"></div>
                   <h1 id="colorlib-logo"><a href="https://yp201.github.io">Yashaswi Pathak</a></h1>
-                  <p><strong>Dual Degree Student, <a href="https://www.iiit.ac.in">IIIT Hyderabad</a></strong></p> 
+                  <p><strong>Dual Degree Student, <a href="https://www.iiit.ac.in">IIIT Hyderabad</a></strong></p>
                </div>
                   <div class="text-center services color-1">
                      <span class="icon2">
@@ -71,22 +71,23 @@
                   </div>
                </nav>
             </aside>
-            
+
             <!----- main page--------->
             <div id="colorlib-main">
-              
-                <section id="paper">
+
+                <section id="publications" class="colorlib-publications"  data-section="publications" >
                   <div class="colorlib-narrow-content">
                      <div class="row">
                           <div class="col-md-12" style="margin-top: 2%">
-                           <h2 style="text-align: center;">Chemically Interpretable Graph Interaction Network for Prediction of Pharmacokinetic Properties of Drug-like Molecules</h2>
+                           <h2 style="text-align: center;">Deep Learning Enabled Inorganic Material Generator </h2>
                            <p  style="text-align: center;">
-                              <u>Yashaswi Pathak</u>, Siddhartha Laghuvarapu, Sarvesh Mehta, U. Deva Priyaumar
-                             <br>34th AAAI Conference on Artificial Intelligence (AAAI 2020) <br> February 2020
+                               <u>Yashaswi Pathak</u>, Karandeep Singh Juneja, Girish Varma, Masahiro Ehara, U Priyakumar
+
+                             <br>Under Review
                           </p>
                           <p style="text-align: center;">
-                          <a role="button" class="btn btn-sm btn-outline-primary" href="https://www.aaai.org/ojs/index.php/AAAI/article/view/5433">Paper</a>
-                          <a role="button" class="btn btn-sm btn-outline-primary" href="https://github.com/devalab/cigin">Code</a>
+                          <a role="button" class="btn btn-sm btn-outline-primary" href="https://chemrxiv.org/articles/Deep_Learning_Enabled_Inorganic_Material_Generator/12312260">Paper</a>
+                          <a role="button" class="btn btn-sm btn-outline-primary" href="https://github.com/devalab/DING">Code</a>
                           </p>
                          </div>
                      </div>
@@ -94,7 +95,9 @@
                      <div class="card flex-md-row h-md-250">
                         <div class="card-body" data-animate-effect="fadeInLeft">
                           <p class="card-text mb-2 ">
-                              <b>Abstract : </b>Solubility of drug molecules is related to pharmacokinetic properties such as absorption and distribution, which affects the amount of drug that is available in the body for its action. Computational or experimental evaluation of solvation free energies of drug-like molecules/solute that quantify solubilities is an arduous task and hence development of reliable computationally tractable models is sought after in drug discovery tasks in pharmaceutical industry. Here, we report a novel method based on graph neural network to predict solvation free energies. Previous studies considered only the solute for solvation free energy prediction and ignored the nature of the solvent, limiting their practical applicability. The proposed model is an end-to-end framework comprising three phases namely, message passing, interaction and prediction phases. In the first phase, message passing neural network was used to compute inter-atomic interaction within both solute and solvent molecules represented as molecular graphs. In the interaction phase, features from the preceding step is used to calculate a solute-solvent interaction map, since the solvation free energy depends on how (un)favorable the solute and solvent molecules interact with each other. The calculated interaction map that captures the solute-solvent interactions along with the features from the message passing phase is used to predict the solvation free energies in the final phase. The model predicts solvation free energies involving a large number of solvents within the limits of chemical accuracy. We also show that the interaction map captures the electronic and steric factors that govern the solubility of drug-like molecules and hence is chemically interpretable.
+                              <b>Abstract : </b>
+                              Recent years have witnessed utilization of modern machine learning approaches for predicting properties of material using available datasets. However, to identify potential candidates for material discovery, one has to systematically scan through a large chemical space and subsequently calculate the properties of all such samples. On the other hand, generative methods are capable of efficiently sampling the chemical space and can generate molecules/materials with desired properties. In this study, we report a deep learning based inorganic material generator (DING) framework consisting of a generator module and a predictor module. The generator module is developed based upon conditional variational autoencoders (CVAE) and the predictor module consists of three deep neural networks trained for predicting enthalpy of formation, volume per atom and energy per atom chosen to demonstrate the proposed method. The predictor and generator modules have been developed using a one hot key representation of the material composition. A series of tests were done to examine the robustness of the predictor models, to demonstrate the continuity of the latent material space, and its ability to generate materials exhibiting target property values.
+                              The DING architecture proposed in this paper can be extended to other properties based on which the chemical space can be efficiently explored for interesting materials/molecules.
                             </p>
                         </div>
                      </div>
@@ -102,7 +105,7 @@
                      </div>
                      </div>
                </section>
-               
+
          <!-- end:container-wrap -->
             </div>
       <!-- end:colorlib-page -->
